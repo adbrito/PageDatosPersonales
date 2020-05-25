@@ -1,18 +1,32 @@
 .datos-personales{
     border: 1px solid;
     float:left;
-    
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 450px;
+    height: 350px;
 }
 
 .metodos-pago{
     border: 1px solid;
     clear:both;/*colocar elemento abajo*/
     float:left;   /*colocar elemento a lado de*/
-
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 450px;
+    height: 350px;
 }
 
 .ubicaciones-guardadas{
     float:left;   
+    width: 450px;
+    height: 350px;
+}
+
+.datos-facturacion{
+    border: 1px solid;
+    width: 450px;
+    height: 350px;
 }
 
 .nota{
@@ -22,10 +36,37 @@
 
 .etiquetas{
     font-weight: bold;
+    display: block;
 }
 
-.encabezado{
-    background-color: #9EBD45;
+.encabezado-font{
     color: white;
 }
 
+.img-block{
+    width: 20px;
+    height: 20px;
+}
+.enc-dat-fact{
+    
+    background-color: #DDD384;
+}
+
+.enc-dat-personal{
+    background-color: #9EBD45;
+}
+
+.enc-met-pago{
+    background-color: #ECD053;
+}
+
+.enc-ubi{background-color: #FED34F;}
+
+.row{
+    padding: 2%;
+    
+}
+
+.input-datos{
+    float:bottom; 
+}

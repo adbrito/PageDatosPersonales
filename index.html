@@ -6,136 +6,122 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Datos personales</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
 
 <body>
     <div>
+        <div class="row">
+            <section class="datos-personales">
+                <div class="encabezado-font enc-dat-personal">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/mercadito-2020.appspot.com/o/Merkadito%20logo%2Ficonos%2Fprofileblanco.svg?alt=media&token=b9682123-0854-4e39-b9dc-c735c9ddc4d7"
+                        alt="" class="img-block">
+                    <!--<i class="fa fa-user"></i>-->
 
-        <div class="datos-personales">
-            <div class="encabezado">
-                <i class="fa fa-user"></i>
+                    <span>Datos personales</span>
+                </div>
+                <form action="">
+                    <div class="dp-nombre">
+                        <label for="" class="etiquetas">Nombre:</label>
+                        <input type="text" class="input-datos">
+                    </div>
+                    <div class="dp-telefono">
+                        <label for="" class="etiquetas">Telefono:</label>
+                        <input type="text">
+                        <label for="">Verificado</label>
+                    </div>
+                    <div>
+                        <label for="" class="etiquetas">Correo:</label>
+                        <input type="text">
+                        <label for="">Verificado</label>
 
-                <span>Datos personales</span>
-            </div>
-            <form action="">
-                <div class="dp-nombre">
-                    <label for="" class="etiquetas">Nombre</label>
-                    <input type="text" >
-                </div>
-                <div class="dp-telefono">
-                    <label for="">Telefono</label>
-                    <input type="text">
-                    <label for="">Verificado</label>
-                </div>
-                <div>
-                    <label for="">Correo</label>
-                    <input type="text">
-                    <label for="">Verificado</label>
+                    </div>
+                    <div>
+                        <label for class="etiquetas">Contraseña:</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <button>Editar</button>
+                    </div>
+                </form>
 
+            </section>
+
+            <section class="datos-facturacion">
+                <div class="encabezado-font enc-dat-fact">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/mercadito-2020.appspot.com/o/Merkadito%20logo%2Ficonos%2Finvoiceblanco.svg?alt=media&token=3fee7f07-67e0-4dc0-ab88-e755799aeb3d"
+                        alt="" class="img-block">
+                    <span>Datos de facturación</span>
                 </div>
-                <div>
-                    <label for="">Contraseña</label>
-                    <input type="text">
+                <form action="">
+                    <div>
+                        <label for="" class="etiquetas">A nombre de:</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="" class="etiquetas">CI-RUC:</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="" class="etiquetas">Teléfono:</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="" class="etiquetas">Correo:</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="" class="etiquetas">Dirección:</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <button>Editar</button>
+                    </div>
+                </form>
+
+            </section>
+        </div>
+        <div class="row">
+            <section class="metodos-pago">
+                <div class="encabezado-font enc-met-pago">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/mercadito-2020.appspot.com/o/Merkadito%20logo%2Ficonos%2FCardblanco.svg?alt=media&token=5e53c276-c019-4fae-ac48-fc0ae328d1ad"
+                        alt="" class="img-block">
+                    <span>Métodos de pago</span>
                 </div>
-                <div>
-                    <button>Editar</button>
+                <form action="">
+
+                    <div>
+                        <button>Agregar método de pago</button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="ubicaciones-guardadas">
+                <div class="encabezado-font enc-ubi">
+
+                    <img src="https://firebasestorage.googleapis.com/v0/b/mercadito-2020.appspot.com/o/Merkadito%20logo%2Ficonos%2Fpositionblanco.svg?alt=media&token=584cc40d-34b3-4765-945f-48aea5f126b1"
+                        alt="" class="img-block">
+
+                    <span>Ubicaciones guardadas</span>
                 </div>
-            </form>
+                <form action="">
+
+                    <div>
+                        <button>Agregar ubicación</button>
+                    </div>
+                </form>
+            </section>
+
 
         </div>
-
-        <div class="datos-facturacion">
-            <div class="encabezado">
-                <span>Datos de facturación</span>
-            </div>
-            <form action="">
-                <div>
-                    <label for="">Nombre</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <label for="">Telefono</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <label for="">Correo</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <label for="">Contraseña</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <button>Editar</button>
-                </div>
-            </form>
-
-        </div>
-
-        <div class="metodos-pago">
-            <div class="encabezado">
-
-                <span>Métodos de pago</span>
-            </div>
-            <form action="">
-                <div>
-                    <label for="">Nombre</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <label for="">Telefono</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <label for="">Correo</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <label for="">Contraseña</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <button>Editar</button>
-                </div>
-            </form>
-        </div>
-
-        <div class="ubicaciones-guardadas">
-            <div class="encabezado">
-
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-
-                <span>Ubicaciones guardadas</span>
-            </div>
-            <form action="">
-                <div>
-                    <label for="">Nombre</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <label for="">Telefono</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <label for="">Correo</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <label for="">Contraseña</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <button>Editar</button>
-                </div>
-            </form>
-        </div>
-
-
-
 
     </div>
     <div class="nota">
