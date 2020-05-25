@@ -1,0 +1,31 @@
+.datos-personales{
+    border: 1px solid;
+    float:left;
+    
+}
+
+.metodos-pago{
+    border: 1px solid;
+    clear:both;/*colocar elemento abajo*/
+    float:left;   /*colocar elemento a lado de*/
+
+}
+
+.ubicaciones-guardadas{
+    float:left;   
+}
+
+.nota{
+    clear:both;
+
+}
+
+.etiquetas{
+    font-weight: bold;
+}
+
+.encabezado{
+    background-color: #9EBD45;
+    color: white;
+}
+
