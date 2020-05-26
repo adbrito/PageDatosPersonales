@@ -1,32 +1,42 @@
 .datos-personales{
-    border: 1px solid;
+    border: 1px solid #9EBD45;
+    border-top-left-radius:  10px 10px;
+    border-top-right-radius: 10px 10px;
     float:left;
     margin-right: 10px;
     margin-bottom: 20px;
-    width: 450px;
-    height: 350px;
+    width: 300px;
+    height: 250px;
 }
 
 .metodos-pago{
-    border: 1px solid;
     clear:both;/*colocar elemento abajo*/
-    float:left;   /*colocar elemento a lado de*/
-    margin-right: 20px;
-    margin-bottom: 10px;
-    width: 450px;
-    height: 350px;
+    /*colocar elemento a lado de*/
+    margin-right: 10px;
+    
+    width: 300px;
+    border-top-left-radius:  10px 10px;
+    border-top-right-radius: 10px 10px;
+    height: 250px;
+    border: 1px solid #ECD053;
 }
 
 .ubicaciones-guardadas{
-    float:left;   
-    width: 450px;
-    height: 350px;
+    border-top-left-radius:  10px 10px;
+    border-top-right-radius: 10px 10px;
+    
+    width: 300px;
+    height: 250px;
 }
 
 .datos-facturacion{
-    border: 1px solid;
-    width: 450px;
-    height: 350px;
+    border: 1px solid #DDD384;
+
+    border-top-left-radius:  10px 10px;
+    border-top-right-radius: 10px 10px;
+    
+    width: 300px;
+    height: 250px;
 }
 
 .nota{
@@ -37,36 +47,91 @@
 .etiquetas{
     font-weight: bold;
     display: block;
+    font-size: 11px;
+padding-top: 10px;
+padding-left: 10px;
 }
 
 .encabezado-font{
     color: white;
+    font-weight: bold;
+    height:  35px;
+    padding-top: 5px;
+    padding-left: 5px;
 }
 
 .img-block{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 .enc-dat-fact{
-    
+    border-top-left-radius:  10px 9px;
+    border-top-right-radius: 10px 9px;
     background-color: #DDD384;
 }
 
 .enc-dat-personal{
     background-color: #9EBD45;
+    border-top-left-radius:  10px 9px;
+    border-top-right-radius: 10px 9px;
+
+    
 }
 
 .enc-met-pago{
     background-color: #ECD053;
-}
-
-.enc-ubi{background-color: #FED34F;}
-
-.row{
-    padding: 2%;
+    border-top-left-radius:  10px 9px;
+    border-top-right-radius: 10px 9px;
     
 }
 
+.enc-ubi{background-color: #FED34F;
+    border-top-left-radius:  10px 9px;
+    border-top-right-radius: 10px 9px;
+    }
+
+.row{
+    padding-left: 2%;
+    line-height: 0.5px;
+   /*font-family: "Corbel", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;*/
+}
+
 .input-datos{
-    float:bottom; 
+    float:bottom;
+    border: 0;
+    font-size: 15px;
+    padding-left: 10px;
+    /*padding-bottom: 8px;*/
+    font-family: "Corbel", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+.div-style-block-dp{
+        border: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #9EBD45;
+        height: 45px;
+
+        
+}
+
+.div-style-block-df{
+    border: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #DDD384;
+        height: 45px;
+       
+}
+
+.input-dif{
+    border: 0;
+    font-size: 15px;
+    padding-left: 10px;
+    /*padding-bottom: 8px;*/
+    
+}
+
+.lbl{
+text-align: right;}
+
+.btn-modelo{
+    height: 10px;
 }
