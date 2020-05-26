@@ -41,6 +41,7 @@
 
 .nota{
     clear:both;
+    border: 1px solid #9EBD45;
 
 }
 
@@ -133,5 +134,10 @@ padding-left: 10px;
 text-align: right;}
 
 .btn-modelo{
-    height: 10px;
+    height: 25px;
+    align-items: left;
+}
+
+.btn-int-div{
+    display: inline-flex;
 }
