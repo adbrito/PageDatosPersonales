@@ -13,7 +13,6 @@
     clear:both;/*colocar elemento abajo*/
     /*colocar elemento a lado de*/
     margin-right: 10px;
-    
     width: 300px;
     border-top-left-radius:  10px 10px;
     border-top-right-radius: 10px 10px;
@@ -42,6 +41,13 @@
 .nota{
     clear:both;
     border: 1px solid #9EBD45;
+    font-weight: bold;
+    margin-left: 12px;
+    margin-top: 15px;
+    width: 610px;
+    height: 60px;
+    font-size: small;
+    padding-left: 10px;
 
 }
 
@@ -94,6 +100,7 @@ padding-left: 10px;
 .row{
     padding-left: 2%;
     line-height: 0.1px;
+    width: 670px;
    /*font-family: "Corbel", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;*/
 }
 
@@ -110,7 +117,6 @@ padding-left: 10px;
         border-bottom-style: solid;
         border-bottom-color: #9EBD45;
         height: 40px;
-
         
 }
 
@@ -142,6 +148,7 @@ padding-right: 10px;}
     height: 25px;
     background: transparent;
     float: right;
+    
 }
 
 .int-div{
@@ -203,4 +210,25 @@ padding-right: 10px;}
 .div-btn-pos{
     float:bottom;
     display: block;
+    
+}
+
+.div-down{
+padding-top: 6%;
+justify-content: flex-end;
+  display: flex;}
+
+  .div-style-block-ug{
+    border: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #FED34F;
+        height: 40px;
+       
+}
+.div-style-block-mp{
+    border: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #ECD053;
+        height: 40px;
+       
 }
