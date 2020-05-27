@@ -24,7 +24,7 @@
 .ubicaciones-guardadas{
     border-top-left-radius:  10px 10px;
     border-top-right-radius: 10px 10px;
-    
+    border: 1px solid #FED34F;
     width: 300px;
     height: 250px;
 }
@@ -48,8 +48,8 @@
 .etiquetas{
     font-weight: bold;
     display: block;
-    font-size: 11px;
-padding-top: 10px;
+    font-size: 10px;
+padding-top: 7px;
 padding-left: 10px;
 }
 
@@ -93,14 +93,14 @@ padding-left: 10px;
 
 .row{
     padding-left: 2%;
-    line-height: 0.5px;
+    line-height: 0.1px;
    /*font-family: "Corbel", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;*/
 }
 
 .input-datos{
     float:bottom;
     border: 0;
-    font-size: 15px;
+    font-size: 13px;
     padding-left: 10px;
     /*padding-bottom: 8px;*/
     font-family: "Corbel", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
@@ -109,7 +109,7 @@ padding-left: 10px;
         border: 1px;
         border-bottom-style: solid;
         border-bottom-color: #9EBD45;
-        height: 45px;
+        height: 40px;
 
         
 }
@@ -118,26 +118,50 @@ padding-left: 10px;
     border: 1px;
         border-bottom-style: solid;
         border-bottom-color: #DDD384;
-        height: 45px;
+        height: 40px;
        
 }
 
 .input-dif{
     border: 0;
-    font-size: 15px;
+    font-size: 13px;
     padding-left: 10px;
     /*padding-bottom: 8px;*/
+    
     
 }
 
 .lbl{
-text-align: right;}
+float: right;
+color: gray;}
 
 .btn-modelo{
     height: 25px;
-    align-items: left;
+    background: transparent;
+    float: right;
 }
 
-.btn-int-div{
+.int-div{
+    display: block;
+    
+}
+
+.div-int-btn{
+    display: block;
+    width: 129px;
+    float: right;
+}
+
+.block-inline{
     display: inline-flex;
+}
+
+.lbl-tam{
+    width: 201px;
+    height: 50px;
+    resize:both;
+}
+
+.color-btn-dp{
+    border: 1px solid #9EBD45;
 }
